@@ -2,7 +2,7 @@
 
 # Modern Go Guidelines
 
-This repository contains guidelines for code agents that help them write modern Go code.
+This repository contains [guidelines](https://github.com/JetBrains/go-modern-guidelines/blob/main/claude/modern-go-guidelines/skills/use-modern-go/SKILL.md) for code agents that help them write modern Go code.
 
 For example, an agent with these guidelines uses `max(a, b)` instead of an if-else block, `slices.Contains` instead of a manual loop, `cmp.Or(a, b, c)` instead of a chain of nil checks. It also knows about recent additions like `new(42)` to get a pointer to a value and `errors.AsType[T](err)` for type-safe error matching—both from Go 1.26.
 
